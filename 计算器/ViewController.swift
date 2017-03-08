@@ -11,8 +11,24 @@ import UIKit
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
+        
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+    }
+    @IBAction func num1(_ sender: Any) {
+        var a :Int
+        a=1
+       
+    }
+    @IBAction func num2(_ sender: Any) {
+        var b :Int
+        b=2
+
+    }
+    @IBAction func num3(_ sender: Any) {
+        var c :Int
+        c=3
+
     }
 
     override func didReceiveMemoryWarning() {
